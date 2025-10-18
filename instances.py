@@ -1,0 +1,13 @@
+gracz = None
+thorne = None
+torin = None
+garrick = None
+miranda = None
+kowal = None
+vane = None
+flint = None
+game_map = None
+window = None
+fps_clock = None
+quest_manager = None
+dragon = None
