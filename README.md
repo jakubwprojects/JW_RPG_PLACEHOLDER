@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 **4️⃣ Uruchom grę:**
 ```
-python jwrpg_Pygame_Alpha_3_00.py
+python launcher.py
 ```
 ---
 
