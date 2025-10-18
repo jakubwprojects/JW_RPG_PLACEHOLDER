@@ -937,7 +937,7 @@ class QuestManager:
                     gracz.y = 37
                     gracz.y2 = 37
                     pygame.mixer.music.stop()
-                    pygame.mixer.music.load("dragon_fight.ogg")
+                    pygame.mixer.music.load("music/dragon_fight.ogg")
                     pygame.mixer.music.play(-1)
 
         # Killing the dragon #

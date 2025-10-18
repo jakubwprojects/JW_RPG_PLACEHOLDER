@@ -12,7 +12,7 @@ import instances
 ### Initializing pygame ###############################################################
 pygame.init()
 pygame.mixer.init()
-pygame.mixer.music.load("sky_city.ogg")
+pygame.mixer.music.load("music/sky_city.ogg")
 glosnosc = 0.5
 pygame.mixer.music.set_volume(glosnosc)
 pygame.mixer.music.play(-1)

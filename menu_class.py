@@ -306,7 +306,7 @@ class Menu:
             Dragon.new_game()
             # Ladowanie glownego soundtracku
             pygame.mixer.music.stop()
-            pygame.mixer.music.load("sky_city.ogg")
+            pygame.mixer.music.load("music/sky_city.ogg")
             pygame.mixer.music.play(-1)
 
     ### NEW GAME ###
@@ -325,7 +325,7 @@ class Menu:
         instances.quest_manager.story = 1
         instances.quest_manager.dragon_progress = 1
         pygame.mixer.music.stop()
-        pygame.mixer.music.load("sky_city.ogg")
+        pygame.mixer.music.load("music/sky_city.ogg")
         pygame.mixer.music.play(-1)
 
     ### GET PLAYER NAME ###
