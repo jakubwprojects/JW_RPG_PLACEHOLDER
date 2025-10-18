@@ -20,8 +20,8 @@ __pypackages__/
 # --------------------------
 # IDE / edytory
 # --------------------------
-.idea/       # PyCharm
-.vscode/     # VSCode
+.idea/
+.vscode/
 *.sublime-project
 *.sublime-workspace
 
