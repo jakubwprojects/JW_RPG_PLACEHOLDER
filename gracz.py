@@ -1738,6 +1738,7 @@ class Gracz:
         self.x2 = save["x2"]
         self.y2 = save["y2"]
         self.m = save["m"]
+        self.kierunek_ruchu = "w" if self.m == 0 else "s" if self.m == 1 else "a" if self.m == 2 else "d"
         self.ilosc_ruchow = save["ilosc_ruchow"]
         self.imie = save["imie"]
         self.doswiadczenie = save["doswiadczenie"]
