@@ -1,7 +1,7 @@
 import pygame
 import random
-from enemies_config import dragon_fire_circle_attack, enemy_pos_boss
-from MAIN_CONFIG import TILE_SIZE as rozmiar_pola
+from config.enemies_config import dragon_fire_circle_attack, enemy_pos_boss
+from config.MAIN_CONFIG import TILE_SIZE as rozmiar_pola
 from assets import atak_gracza_grafika_rozszerzona
 from przeciwnik import Przeciwnik
 import instances

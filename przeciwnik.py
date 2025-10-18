@@ -1,9 +1,7 @@
 import pygame
-from pytmx import load_pygame
 import random
 import math
-from enemies_config import enemies, enemy_pos, enemy_pos_underground
-from MAIN_CONFIG import TILE_SIZE as rozmiar_pola
+from config.enemies_config import enemies
 ### A-star pathfinder 1_00 ############################################################
 from a_star_1_00 import a_star_pathfinder
 from a_star_1_00_map_generate import generate_map_for_a_star

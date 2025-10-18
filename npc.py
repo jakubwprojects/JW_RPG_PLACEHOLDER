@@ -1,8 +1,6 @@
 import pygame
-from pytmx import load_pygame
-from npc_config import npc_main_lvl, npc_underground_lvl
-from MAIN_CONFIG import (TILE_SIZE as rozmiar_pola, REFRESHING_1 as odswiezanie1, REFRESHING_2 as odswiezanie2,
-                         DISPLAY_WIDTH as szerokosc_okna)
+from config.MAIN_CONFIG import (REFRESHING_1 as odswiezanie1, REFRESHING_2 as odswiezanie2,
+                                DISPLAY_WIDTH as szerokosc_okna)
 from instances import gracz
 from assets import *
 import instances

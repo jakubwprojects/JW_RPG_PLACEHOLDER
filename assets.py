@@ -1,5 +1,5 @@
 from pytmx import load_pygame
-from MAIN_CONFIG import TILE_SIZE as rozmiar_pola
+from config.MAIN_CONFIG import TILE_SIZE as rozmiar_pola
 from konfiguracja_3_00 import ladowanie_obrazow
 
 (

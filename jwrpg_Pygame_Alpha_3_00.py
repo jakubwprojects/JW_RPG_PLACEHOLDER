@@ -2,11 +2,11 @@
 #######################################################################################
 import pygame
 #######################################################################################
-from player_config import sword_stats, bow_stats, armor_stats, cape_stats, boots_stats, progression_table, start_pos
-from npc_config import npc_main_lvl, npc_underground_lvl
-from enemies_config import enemies, enemy_pos, enemy_pos_underground, enemy_pos_boss
+from config.player_config import start_pos
+from config.npc_config import npc_main_lvl, npc_underground_lvl
+from config.enemies_config import enemy_pos, enemy_pos_underground, enemy_pos_boss
 ### Main settings #####################################################################
-from MAIN_CONFIG import DISPLAY_WIDTH as szerokosc_okna, DISPLAY_HEIGHT as wysokosc_okna
+from config.MAIN_CONFIG import DISPLAY_WIDTH as szerokosc_okna, DISPLAY_HEIGHT as wysokosc_okna
 #######################################################################################
 import instances
 ### Initializing pygame ###############################################################

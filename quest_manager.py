@@ -1,7 +1,7 @@
 import pygame
-from MAIN_CONFIG import TILE_SIZE as rozmiar_pola, REFRESHING_1 as odswiezanie1, DISPLAY_WIDTH as szerokosc_okna
-from MAIN_CONFIG import REFRESHING_2 as odswiezanie2
-from instances import gracz, game_map, window as okno, thorne, torin, garrick, miranda, kowal, vane, flint
+from config.MAIN_CONFIG import TILE_SIZE as rozmiar_pola, REFRESHING_1 as odswiezanie1, DISPLAY_WIDTH as szerokosc_okna
+from config.MAIN_CONFIG import REFRESHING_2 as odswiezanie2
+from instances import gracz, game_map, window as okno, thorne, garrick, miranda, vane
 from przeciwnik import Przeciwnik
 from dragon import Dragon
 from assets import znak, cialo

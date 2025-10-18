@@ -1,6 +1,6 @@
 import pygame
 from pytmx import load_pygame
-from MAIN_CONFIG import TILE_SIZE, MAP_SIZE, BASIC_TILE, DISPLAY_WIDTH, DISPLAY_HEIGHT
+from config.MAIN_CONFIG import TILE_SIZE, MAP_SIZE, BASIC_TILE, DISPLAY_WIDTH, DISPLAY_HEIGHT
 from instances import gracz as player
 
 MAIN_LEVEL = "mapa_2_00_placeholder.tmx"

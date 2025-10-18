@@ -4,10 +4,9 @@ import math
 import random
 import konfiguracja_3_00 as konfiguracja
 import jwrpg_Blackjack
-from pytmx import load_pygame
-from MAIN_CONFIG import (TILE_SIZE as rozmiar_pola, DISPLAY_HEIGHT as wysokosc_okna, REFRESHING_1 as odswiezanie1,
-                         REFRESHING_3 as odswiezanie3)
-from player_config import sword_stats, bow_stats, armor_stats, cape_stats, boots_stats, progression_table, start_pos
+from config.MAIN_CONFIG import (DISPLAY_HEIGHT as wysokosc_okna, REFRESHING_1 as odswiezanie1,
+                                REFRESHING_3 as odswiezanie3)
+from config.player_config import sword_stats, bow_stats, armor_stats, cape_stats, boots_stats, progression_table, start_pos
 from assets import *
 import instances
 
