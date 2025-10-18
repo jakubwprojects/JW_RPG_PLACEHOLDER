@@ -3,8 +3,8 @@ import random
 import math
 from config.enemies_config import enemies
 ### A-star pathfinder 1_00 ############################################################
-from a_star_1_00 import a_star_pathfinder
-from a_star_1_00_map_generate import generate_map_for_a_star
+from a_star_pathfinder import a_star_path
+from a_star_pathfinder import generate_map_for_a_star
 #######################################################################################
 import instances
 from instances import gracz
@@ -524,7 +524,7 @@ class Przeciwnik:
             local_map, player_pos, enemy_pos = generate_map_for_a_star(self.y, self.x, gracz.y2, gracz.x2,
                                                                        7, 8, mapa_jwrpg)
             ### Running A-STAR PATHFINDER ###
-            path = a_star_pathfinder(local_map, enemy_pos, player_pos)
+            path = a_star_path(local_map, enemy_pos, player_pos)
 
             ### If path found ###
             if path:
