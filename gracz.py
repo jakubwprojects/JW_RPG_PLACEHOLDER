@@ -2,7 +2,6 @@ import os.path
 import pygame
 import math
 import random
-import konfiguracja_3_00 as konfiguracja
 import jwrpg_Blackjack
 from config.MAIN_CONFIG import (DISPLAY_HEIGHT as wysokosc_okna, REFRESHING_1 as odswiezanie1,
                                 REFRESHING_3 as odswiezanie3)
@@ -149,7 +148,7 @@ class Gracz:
         ###
         self.procent_nastepny_poziom = 0.0
         ### Ładowanie słownika z doświadczeniem, hp, mp na każdy lvl 1-50 ################
-        self.doswiadczenie_slownik = konfiguracja.poziomy_ilosc_doswiadczenia_hp_mp()
+        self.doswiadczenie_slownik = progression_table
         ##################################################################################
 
         ### Ładowanie zmiennych do gry Blackjack ###
