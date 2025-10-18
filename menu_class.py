@@ -49,8 +49,8 @@ class Menu:
     ### Function load images ###
     def load_images(self):
 
-        self.image_logo = pygame.image.load("logo.png")
-        self.image_background = pygame.image.load("background.jpg")
+        self.image_logo = pygame.image.load("graphics/logo.png")
+        self.image_background = pygame.image.load("graphics/background.jpg")
 
     ### Function drawing text with outline effect ###
     @staticmethod

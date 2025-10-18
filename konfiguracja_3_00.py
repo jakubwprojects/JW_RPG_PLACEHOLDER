@@ -11,11 +11,11 @@ def ladowanie_obrazow(mapa_tmx, rozmiar_pola):
 
         ###############################################
         # Ładowanie grafiki z logo
-        logo = pygame.image.load("logo.png")
+        logo = pygame.image.load("graphics/logo.png")
         # Ładowanie grafiki znaku żółtego wykrzyknika
-        znak = pygame.image.load("znak.png")
+        znak = pygame.image.load("graphics/znak.png")
         # Ładowanie obrazu tła menu
-        tlo_menu = pygame.image.load("background.jpg")
+        tlo_menu = pygame.image.load("graphics/background.jpg")
         # Ładowanie grafiki HP potion
         hp_potion = mapa_tmx.get_tile_image(19, 7, 5)
         original_rect = hp_potion.get_rect()
